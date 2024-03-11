@@ -1,4 +1,5 @@
 #include <iostream>
+// вариант решения задачи №2 - Проверка корректности e-mail
 //first part format checking:
 std::string firstPart (std::string string)
 {

@@ -1,4 +1,5 @@
 #include <iostream>
+// вариант решения задачи №1 про шифр Цезаря
 char code(char c, int k)
 {
     if (c >= 'a' && c <= 'z')

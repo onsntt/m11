@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+//вариант решения задачи №3 (проверка корректности IP-адреса)
 bool symbols(std::string inp, std::string whiteList)
 {
     if (inp.length() < 7 || inp.length() > 15) return false;
