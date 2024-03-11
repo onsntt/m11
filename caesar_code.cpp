@@ -24,7 +24,7 @@ int main()
 {
     std::cout << "Enter your string!\n";
     std::string str;
-    getline(std::cin, str);
+    getline(std::cin, str); // this warning is bad, but I can't prevent it
     std::cout << "Enter your Key !\n";
     int key;
     std::cin >> key;

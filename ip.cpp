@@ -100,7 +100,7 @@ std::cin >> string;
 int firstDot, secondDot, thirdDot = 0;
 
 //std::cout << symbols(string, whiteList) << "\n";
-if (!symbols) {
+if (!symbols(string, whiteList)) {
     error();
     abort();
 }
@@ -127,8 +127,7 @@ if (firstOctet == "incorrect" || secondOctet == "incorrect" || thirdOctet == "in
 
 
 //std::cout << firstDot << " " << secondDot << " " << thirdDot << "\n";
-
- //std::cout << octetOk(string, 0, firstDot) << " " << octetOk(string, firstDot, secondDot) << " " << octetOk(string, secondDot, thirdDot) << " " << octetOk(string, thirdDot, string.length()) << "\n";
+//std::cout << octetOk(string, 0, firstDot) << " " << octetOk(string, firstDot, secondDot) << " " << octetOk(string, secondDot, thirdDot) << " " << octetOk(string, thirdDot, string.length()) << "\n";
  //std::cout << firstOctet << " " << secondOctet << " " << thirdOctet << " " << lastOctet << "\n";
  //std::cout << octetOk(firstOctet) << " " << octetOk(secondOctet) << " " << octetOk(thirdOctet) << " " << octetOk(lastOctet) << "\n";
  //if ((!symbols) || firstDot == 0 )

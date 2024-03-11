@@ -97,7 +97,7 @@ int main(){
 
 std::string input;
 std::cout << "Enter email address!\n";
-getline(std::cin, input);
+getline(std::cin, input); //what shold I do to prevent this warning?
 std::string sub1 = "";
 std::string sub2 = "";
 std::string whiteListFirst = "!#$%&'*+-/=?^_`{|}~abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.@";
