@@ -126,7 +126,7 @@ if (firstOctet == "incorrect" || secondOctet == "incorrect" || thirdOctet == "in
 }
 
 
-std::cout << firstDot << " " << secondDot << " " << thirdDot << "\n";
+//std::cout << firstDot << " " << secondDot << " " << thirdDot << "\n";
 
  //std::cout << octetOk(string, 0, firstDot) << " " << octetOk(string, firstDot, secondDot) << " " << octetOk(string, secondDot, thirdDot) << " " << octetOk(string, thirdDot, string.length()) << "\n";
  //std::cout << firstOctet << " " << secondOctet << " " << thirdOctet << " " << lastOctet << "\n";
