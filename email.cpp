@@ -65,7 +65,10 @@ std::string secondPart(std::string string, int secondPartBegin)
           if (string[i - 1] == '.' || dotCount == 0) {
               return "incorrect";
               
-          } else
+          } else if ( secondPartResult.length() > 63) {
+              return "incorrect";
+          }
+
               return secondPartResult;
 }
 }
