@@ -62,7 +62,7 @@ std::string secondPart(std::string string, int secondPartBegin)
             
         }
     }
-          if (string[i - 1] == '.' || dotCount == 0) {
+          if (string[i - 1] == '.') {
               return "incorrect";
               
           } else if ( secondPartResult.length() > 63) {
@@ -104,8 +104,8 @@ std::cout << "Enter email address!\n";
 getline(std::cin, input); //what shold I do to prevent this warning?
 std::string sub1 = "";
 std::string sub2 = "";
-std::string whiteListFirst = "!#$%&'*+-/=?^_`{|}~abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.@";
-std::string whiteListSecond = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.-";
+std::string whiteListFirst = "!#$%&'*+-/=?^_`{|}~abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.@0123456789";
+std::string whiteListSecond = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.-0123456789";
 
 sub1 = firstPart(input);
 int secondPartBegin = sub1.length();
